@@ -6,39 +6,48 @@
  * Class: Scotland 2017
  */
 
-html,
-body {
-	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+html, body {
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 }
 
 button {
-	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 }
 
 /*  Navigation */
-.navbar-brand > img {
+
+.navbar-brand>img {
 	max-height: 40px;
 	width: auto;
 }
 
 .navbar-light .navbar-toggler {
 	border: 0;
-	right:  0;
+	right: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
 	color: #292b2c;
 	font-weight: 600;
 	text-transform: uppercase;
-
 	/*  Challenge: can you make the navigation links orange on hover? */
 }
 
 /* Buttons */
+
+.redButton {
+	background-color: #ce5f31;
+}
+
+.whiteButton {
+	background-color: white;
+	color: red;
+}
+
 /* INSERT BUTTON STYLES HERE */
 
-
 /* Alert */
+
 .alert {
 	position: relative;
 	margin-top: 2em;
@@ -64,11 +73,13 @@ button {
 }
 
 /* Jumbotron */
+
 .jumbotron {
 	border-radius: 0;
 }
 
 /* Headings */
+
 .heading-underline {
 	position: relative;
 	margin-bottom: 2em;
@@ -91,6 +102,7 @@ button {
 }
 
 /* Article */
+
 .article {
 	margin-bottom: 2em;
 }
@@ -106,8 +118,7 @@ button {
 	text-decoration: uppercase;
 }
 
-.article__read-more a:hover,
-.article__read-more a:focus {
+.article__read-more a:hover, .article__read-more a:focus {
 	text-decoration: none;
 }
 
@@ -121,6 +132,7 @@ button {
 }
 
 /* Footer */
+
 .footer {
 	margin-top: 4em;
 }
@@ -134,8 +146,43 @@ button {
 /* Media queries */
 
 @media screen and (min-width: 992px) {
-
-	.navbar-brand > img {
-	   max-height: 80px;
+	.navbar-brand>img {
+		max-height: 80px;
 	}
+}
+
+.sidetoside1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+.sidetoside2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+.sidetoside3 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+
+.barralateral {
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	align-content: space-between;
 }

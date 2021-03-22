@@ -13,6 +13,7 @@ Then, **clone** it to your machine, using the following terminal commands.
 >Clone the repo:
 `git clone https://github.com/<your_username>/bikes-for-refugees.git`
 
+>>>>>>>>>>problem here
 Now, **create a new branch** with your name in the title
 >`git checkout -b bikes-for-refugees/yourname`
 
